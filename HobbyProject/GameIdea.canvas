@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"aa10a0fee436d528","type":"text","text":"3D Game","x":-189,"y":-142,"width":250,"height":60},
+		{"id":"186ce597a9d4da3e","type":"text","text":"Friends","x":410,"y":-20,"width":250,"height":60},
+		{"id":"04ead4eb5a6ef586","type":"text","text":"Coop","x":80,"y":-20,"width":250,"height":60},
+		{"id":"4a412c74fea90bea","type":"text","text":"Cards","x":160,"y":-202,"width":250,"height":60},
+		{"id":"8b5e116e5841e4c0","type":"text","text":"Resources","x":299,"y":-389,"width":250,"height":60},
+		{"id":"65f8defade43c59b","type":"text","text":"Escape","x":-689,"y":-142,"width":250,"height":60},
+		{"id":"5465f52f4472712e","type":"text","text":"Puzzle","x":-725,"y":-20,"width":250,"height":60},
+		{"id":"b626145de3bd8fab","type":"text","text":"Repairing in closed Space","x":-270,"y":240,"width":250,"height":60},
+		{"id":"b49cd08ec69a5660","type":"text","text":"ColorPerPlayer","x":-475,"y":-480,"width":250,"height":60},
+		{"id":"4a33e5055e9ed6a5","type":"text","text":"Cooking","x":-45,"y":140,"width":250,"height":60},
+		{"id":"52b2bb35031bac28","type":"text","text":"Survival","x":-20,"y":-300,"width":250,"height":60},
+		{"id":"64900bd84e227421","type":"text","text":"Platformer","x":-314,"y":-300,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"dc0bed3319286514","fromNode":"186ce597a9d4da3e","fromSide":"left","toNode":"04ead4eb5a6ef586","toSide":"right"},
+		{"id":"2a4659eef60674e1","fromNode":"04ead4eb5a6ef586","fromSide":"left","toNode":"aa10a0fee436d528","toSide":"bottom"},
+		{"id":"5c2efdb68cf2c09b","fromNode":"52b2bb35031bac28","fromSide":"bottom","toNode":"aa10a0fee436d528","toSide":"top"},
+		{"id":"b20677f41df964b8","fromNode":"4a412c74fea90bea","fromSide":"left","toNode":"aa10a0fee436d528","toSide":"right"},
+		{"id":"c0a2b10f2b8e0e10","fromNode":"8b5e116e5841e4c0","fromSide":"left","toNode":"52b2bb35031bac28","toSide":"right"},
+		{"id":"899768e522c811c2","fromNode":"4a33e5055e9ed6a5","fromSide":"top","toNode":"aa10a0fee436d528","toSide":"bottom"},
+		{"id":"96766c42114a3f61","fromNode":"64900bd84e227421","fromSide":"bottom","toNode":"aa10a0fee436d528","toSide":"left"},
+		{"id":"da6902cd9622a543","fromNode":"b49cd08ec69a5660","fromSide":"bottom","toNode":"64900bd84e227421","toSide":"left"},
+		{"id":"3debf14c1c4d74cb","fromNode":"b626145de3bd8fab","fromSide":"top","toNode":"aa10a0fee436d528","toSide":"bottom"},
+		{"id":"635ea6529a5e4bae","fromNode":"65f8defade43c59b","fromSide":"right","toNode":"aa10a0fee436d528","toSide":"bottom"},
+		{"id":"c1fc4dce329a487f","fromNode":"5465f52f4472712e","fromSide":"right","toNode":"aa10a0fee436d528","toSide":"bottom"}
+	]
+}

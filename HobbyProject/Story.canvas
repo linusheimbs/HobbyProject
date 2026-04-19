@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"da3a444d56b2bc68","x":-38,"y":-81,"width":250,"height":60,"type":"text","text":"story/goals"},
+		{"id":"7d1e881df9e225a4","x":70,"y":-259,"width":250,"height":60,"type":"text","text":"j4f"},
+		{"id":"333a56b26f5c5d06","x":360,"y":20,"width":250,"height":60,"type":"text","text":"contractor?"},
+		{"id":"b1091fcb19058ecc","x":360,"y":-111,"width":250,"height":60,"type":"text","text":"apocalypse"},
+		{"id":"967f47de34e33dad","x":40,"y":220,"width":250,"height":60,"type":"text","text":"objectives"}
+	],
+	"edges":[
+		{"id":"27cd5231aa6ce488","fromNode":"7d1e881df9e225a4","fromSide":"bottom","toNode":"da3a444d56b2bc68","toSide":"top"},
+		{"id":"f8f82d6a93068c68","fromNode":"b1091fcb19058ecc","fromSide":"left","toNode":"da3a444d56b2bc68","toSide":"right"},
+		{"id":"af7b11f65ca5ecac","fromNode":"333a56b26f5c5d06","fromSide":"left","toNode":"da3a444d56b2bc68","toSide":"bottom"},
+		{"id":"64eb2af10ccd8315","fromNode":"967f47de34e33dad","fromSide":"top","toNode":"da3a444d56b2bc68","toSide":"bottom"}
+	]
+}

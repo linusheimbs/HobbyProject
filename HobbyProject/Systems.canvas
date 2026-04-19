@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"5c15dd9245eb8e09","x":-88,"y":-92,"width":250,"height":60,"type":"text","text":"Systems\n"},
+		{"id":"0f900ac277344cb3","x":-8,"y":-231,"width":250,"height":60,"type":"text","text":"loading/saving"},
+		{"id":"55fec220b3699b99","x":396,"y":-41,"width":250,"height":60,"type":"text","text":"interfaces"},
+		{"id":"fca0cdee3daac7f9","x":680,"y":80,"width":250,"height":60,"type":"text","text":"\"ghost of ts...\""}
+	],
+	"edges":[
+		{"id":"86a29a3469ea66f6","fromNode":"0f900ac277344cb3","fromSide":"bottom","toNode":"5c15dd9245eb8e09","toSide":"top"},
+		{"id":"a62afa6343a837cd","fromNode":"55fec220b3699b99","fromSide":"left","toNode":"5c15dd9245eb8e09","toSide":"right"},
+		{"id":"5bfe1fbe6a691177","fromNode":"fca0cdee3daac7f9","fromSide":"left","toNode":"55fec220b3699b99","toSide":"bottom"}
+	]
+}
