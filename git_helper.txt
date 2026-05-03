@@ -1,0 +1,69 @@
+git add .    (adds all files in the current directory to staging)
+
+git status   (shows the current status of files: staged, unstaged, untracked)
+
+git commit -m "message"
+             (commits staged changes with a short message describing them)
+
+git log      (shows commit history)
+
+git log --oneline
+             (compact version of commit history)
+
+git diff     (shows changes that are not yet staged)
+
+git diff --staged
+             (shows changes that are staged but not yet committed)
+
+git restore <file>
+             (discards changes in a file, restores last committed version)
+
+git restore --staged <file>
+             (unstages a file but keeps its changes)
+
+git rm <file>
+             (removes a file and stages the deletion)
+
+git mv <old> <new>
+             (renames or moves a file)
+
+git branch   (lists all branches)
+
+git branch <name>
+             (creates a new branch)
+
+git checkout <branch>
+             (switches to another branch)
+
+git checkout -b <name>
+             (creates and switches to a new branch)
+
+git merge <branch>
+             (merges the specified branch into the current branch)
+
+git clone <url>
+             (copies a remote repository to your local machine)
+
+git pull     (fetches and merges changes from remote repository)
+
+git push     (uploads local commits to remote repository)
+
+git remote -v
+             (shows remote repository URLs)
+
+git init     (initializes a new git repository in the current directory)
+
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+             (sets your global git identity)
+
+git stash    (temporarily saves changes without committing)
+
+git stash pop
+             (restores stashed changes)
+
+git reset --hard
+             (resets working directory and staging area to last commit WARNING: deletes changes)
+
+git help <command>
+             (shows help for a specific command)
