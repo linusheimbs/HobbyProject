@@ -1,25 +1,3 @@
 [gd_scene format=3 uid="uid://byhk72td6wx7d"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_0rl57"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_jwb06"]
-
-[sub_resource type="PlaneMesh" id="PlaneMesh_fiy0c"]
-size = Vector2(100, 100)
-
 [node name="Playground" type="Node3D" unique_id=701848010]
-
-[node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=212170127]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" unique_id=420482463]
-shape = SubResource("BoxShape3D_0rl57")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D" unique_id=875245450]
-mesh = SubResource("BoxMesh_jwb06")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=531989162]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18060112, -1.0704632, -0.020290375)
-mesh = SubResource("PlaneMesh_fiy0c")
-
-[node name="Camera3D" type="Camera3D" parent="." unique_id=2096688784]
-transform = Transform3D(0.054078843, -0.76155233, 0.6458433, 0, 0.6467898, 0.7626684, -0.99853665, -0.041244224, 0.034977645, 10, 20, 0)
